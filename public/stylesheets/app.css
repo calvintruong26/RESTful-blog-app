@@ -1,0 +1,12 @@
+i.icon {
+    font-size: 2em;
+}
+
+.container.main {
+    margin-top: 7em;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
