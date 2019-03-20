@@ -13,11 +13,6 @@ app.use(expressSanitizer());
 app.use(express.static("public"));
 app.use(methodOverride("_method"));
 
-//title
-//image
-//body
-//created
-
 
 //mongoose model config
 var blogSchema = new mongoose.Schema({
@@ -29,11 +24,6 @@ var blogSchema = new mongoose.Schema({
 
 var Blog = mongoose.model("Blog", blogSchema);
 
-// Blog.create({
-//   title: "My First Blog",
-//   image: "https://images.unsplash.com/photo-1451479456262-b94f205059be?dpr=2&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80",
-//   body: "This is my first blog post!!!! Let's go baby!!!!!"
-// });
 
 //routes
 
